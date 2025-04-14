@@ -1,7 +1,7 @@
 
 # Rust Exercises 🦀
 
-Este repositorio tiene como propósito documentar mi aprendizaje del lenguaje de programación **Rust** a través de la resolución de ejercicios prácticos. No soy el autor de estos ejercicios, sino que los he recopilado de diversas fuentes públicas en internet con fines educativos y de práctica personal.
+Este repositorio tiene como propósito documentar mi aprendizaje del lenguaje de programación **Rust** a través de la resolución de ejercicios prácticos.
 
 ## 📌 Objetivos
 
@@ -16,21 +16,30 @@ Para mantener una estructura simple y clara, todos los ejercicios resueltos se a
 - src --> **Carpeta principal**, contiene todo.
 - bin --> **Carpeta objetivo**, contiene el codigo de los ejercicios resueltos
 
-### Importante
+Cada archivo dentro de `bin/` representa un ejercicio independiente en formato `.rs`, siguiendo las convenciones del lenguaje Rust. Esta organización permite compilar y ejecutar ejercicios de forma modular utilizando:
 
-Cada archivo dentro de `bin/` es un ejercicio independiente en formato `.rs`, siguiendo las convenciones del lenguaje Rust. Esta organización permite compilar y ejecutar ejercicios de forma modular utilizando `cargo run --bin <nombre_archivo>`.
+```bash
+cargo run --bin <nombre_archivo>
+```
 
-> **Nota importante:** No soy el autor de los ejercicios. Los mismos han sido encontrados en sitios web, foros, blogs o plataformas de práctica. Cuando sea posible, incluiré un enlace a la fuente del ejercicio para dar el debido crédito. No me atribuyo la creación de ninguno de estos ejercicios.
+## Importante
+
+> ⚠️ **Importante:** No soy el autor de estos ejercicios. Todos han sido extraídos de la plataforma oficial [Exercism - Rust Track](https://exercism.org/tracks/rust) con fines educativos y de práctica personal. Solo me encargo de resolverlos y documentarlos.
+
+## 🧪 Ejecución de los ejercicios
+
+Todos los ejercicios fueron ejecutados directamente en el **editor online de la plataforma Exercism**. Por lo tanto, si deseas probar cualquier solución, simplemente **copia y pega el código** en el entorno online del ejercicio correspondiente dentro de la página:
 
 ## 🗺️ Mi Ruta de Aprendizaje en Rust
 
 - Roadmap oficial de Rust: [https://roadmap.sh/rust](https://roadmap.sh/rust)
-- Mi progreso actual: [Ver mi progreso](https://roadmap.sh/rust?s=664e7e5fd6b907c7f7638e17)
+- Mi progreso actual: [Ver mi progreso](https://roadmap.sh/rust?s=67f7298446da096541bebece)
 
 ## 🔗 Enlaces Relacionados
 
-- Repositorio: [github.com/CarlitosDeveloper/rust-exercises](https://github.com/CarlitosDeveloper/rust-exercises)
-- Autor del repositorio: [@CarlitosDeveloper](https://github.com/CarlitosDeveloper)
+📘 Puedes consultar mi cuenta personal en Exercism aquí: [https://exercism.org/profiles/CarlitosEngineer](https://exercism.org/profiles/CarlitosEngineer)
+- Repositorio del proyecto: [github.com/CarlitosEngineer/exercism-rust](https://github.com/CarlitosEngineer/exercism-rust)
+- Perfil en GitHub: [@CarlitosEngineer](https://github.com/CarlitosEngineer)
 
 ## 🤝 Contribuciones
 
